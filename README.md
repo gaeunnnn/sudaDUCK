@@ -54,7 +54,8 @@
 **김가민**  
 <sub>Team Lead / Backend</sub>
 
-프로젝트 총괄 및 일정 관리  
+프로젝트 총괄 
+백엔드 API 개발 
 Spring Security & JWT 인증/인가  
 OAuth 2.0 (Kakao) 소셜 로그인  
 Redis(Hash/Set) 기반 실시간 캐싱  
@@ -71,6 +72,7 @@ DB 스키마 설계 및 JPA 최적화
 **장가은**  
 <sub>Backend</sub>
 
+프로젝트 일정 관리(Jira)
 백엔드 API 전반적인 개발  
 대기방·게임방 상태 관리 로직 설계  
 OpenVidu 기반 WebRTC 연동  
