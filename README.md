@@ -249,15 +249,20 @@ GPT-4o-mini 기반 주제 추천·번역·퀴즈 생성
   <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white" />
 </p>
 
-<details>
-<summary>세부 스펙 보기</summary>
+<br/>
 
-- Language: JavaScript  
-- Runtime: Node.js 24.12.0  
-- Framework: React 19.2.0, React Router 7.12.0  
-- Libraries: OpenVidu Browser 2.25.0, STOMP.js 7.2.1, SockJS 1.6.1, Axios 1.13.4  
-- Build: Vite 7.2.4  
-- IDE: VS Code  
+<div align="center">
+
+| Category | Spec |
+|:--:|:--|
+| Language | JavaScript |
+| Runtime | Node.js 24.12.0 |
+| Framework | React 19.2.0, React Router 7.12.0 |
+| Libraries | OpenVidu Browser 2.25.0, STOMP.js 7.2.1,<br>SockJS 1.6.1, Axios 1.13.4 |
+| Build Tool | Vite 7.2.4 |
+| IDE | VS Code |
+
+</div>
 
 </details>
 
@@ -275,17 +280,21 @@ GPT-4o-mini 기반 주제 추천·번역·퀴즈 생성
   <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" />
 </p>
 
-<details>
-<summary>세부 스펙 보기</summary>
+<br/>
 
-- Language: Java 17 (Eclipse Temurin)  
-- Framework: Spring Boot 3.5.9  
-- Libraries: Spring Security, JPA, Redis, OAuth2 Client, WebSocket, OpenVidu Java Client 2.25.0, JJWT 0.12.3, Springdoc OpenAPI 2.3.0  
-- Database: MySQL 8.0.43, Redis (Alpine)  
-- Build: Gradle 8.14.3  
-- IDE: IntelliJ IDEA (Ultimate)  
+<div align="center">
 
-</details>
+| Category | Spec |
+|:--:|:--|
+| Language | Java 17 (Eclipse Temurin) |
+| Framework | Spring Boot 3.5.9 |
+| Core Libraries | Spring Security, JPA, Redis, OAuth2 Client,<br>WebSocket, OpenVidu Java Client 2.25.0 |
+| API Docs | Springdoc OpenAPI 2.3.0 |
+| Database | MySQL 8.0.43, Redis (Alpine) |
+| Build Tool | Gradle 8.14.3 |
+| IDE | IntelliJ IDEA (Ultimate) |
+
+</div>
 
 ---
 
@@ -297,14 +306,17 @@ GPT-4o-mini 기반 주제 추천·번역·퀴즈 생성
   <img src="https://img.shields.io/badge/Whisper-000000?style=for-the-badge" />
 </p>
 
-<details>
-<summary>세부 스펙 보기</summary>
+<br/>
 
-- LLM: GPT-4o mini  
-- Speech: MS Cognitive Services Speech 1.47.0 (TTS/STT), OpenAI Whisper API  
-- Features: 실시간 발음 평가, 비동기 음성 처리, 문법 교정  
+<div align="center">
 
-</details>
+| Category | Spec |
+|:--:|:--|
+| LLM Model | GPT-4o mini |
+| Speech | MS Cognitive Services Speech 1.47.0,<br>OpenAI Whisper API |
+| Features | 실시간 발음 평가, 비동기 음성 처리, 문법 교정 |
+
+</div>
 
 ---
 
@@ -319,21 +331,24 @@ GPT-4o-mini 기반 주제 추천·번역·퀴즈 생성
   <img src="https://img.shields.io/badge/Mattermost-0058CC?style=for-the-badge&logo=mattermost&logoColor=white" />
 </p>
 
-<details>
-<summary>세부 스펙 보기</summary>
+<br/>
 
-- Instance: AWS EC2 (Ubuntu 20.04 LTS)  
-- Container: Docker Engine, Docker Compose v3.8  
-- CI/CD: Jenkins LTS (DinD)  
-- Web Server: Nginx  
-- Media Server: OpenVidu Server 2.25.0 (Pro / Host Network)  
-- Notification: Mattermost Webhook  
+<div align="center">
 
-</details>
+| Category | Spec |
+|:--:|:--|
+| Instance | AWS EC2 (Ubuntu 20.04 LTS) |
+| Container | Docker Engine, Docker Compose v3.8 |
+| CI/CD | Jenkins LTS (Docker-in-Docker) |
+| Web Server | Nginx |
+| Media Server | OpenVidu Server 2.25.0 (Pro / Host Network) |
+| Notification | Mattermost Webhook |
+
+</div>
 
 ---
 
-### 🗂️ Collaboration Tools
+### Collaboration Tools
 
 <div align="center">
 
