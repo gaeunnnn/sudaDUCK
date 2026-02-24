@@ -1,9 +1,11 @@
-<br/>
-
 <h1 align="center">
   <img src="https://api.iconify.design/mdi:duck.svg?color=%23FFC83D" width="38" />
   <span style="color:#FFC83D;">수다</span>DUCK
 </h1>
+
+<p align="center">
+  <b>🏆 SSAFY 공통 프로젝트 우수상 수상</b>
+</p>
 
 <br/>
 
@@ -47,7 +49,7 @@
 <tr>
 <td align="center" width="33%" valign="top">
 
-<img src="assets/images/team/김가민.png" width="110"/>
+<img src="assets/images/team/김가민.png" height="130"/>
 
 **김가민**  
 <sub>Team Lead / Backend</sub>
@@ -64,7 +66,7 @@ DB 스키마 설계 및 JPA 최적화
 
 <td align="center" width="33%" valign="top">
 
-<img src="assets/images/team/장가은.jpeg" width="110" />
+<img src="assets/images/team/장가은.jpeg" height="130" />
 
 **장가은**  
 <sub>Backend</sub>
@@ -81,7 +83,7 @@ DB ERD 설계 및 데이터 모델링
 
 <td align="center" width="33%" valign="top">
 
-<img src="assets/images/team/이승엽.png" width="110"/>
+<img src="assets/images/team/이승엽.png" height="130"/>
 
 **이승엽**  
 <sub>Infra</sub>
@@ -99,7 +101,7 @@ STOMP 기반 상태 동기화 UX 고도화
 <tr>
 <td align="center" valign="top">
 
-<img src="assets/images/team/전연수.png" width="110"/>
+<img src="assets/images/team/전연수.png" height="130"/>
 
 **전연수**  
 <sub>Frontend</sub>
@@ -114,7 +116,7 @@ UCC 기획·촬영·편집
 
 <td align="center" valign="top">
 
-<img src="assets/images/team/최석원.jpg" width="110"/>
+<img src="assets/images/team/최석원.jpg" height="130"/>
 
 **최석원**  
 <sub>Frontend</sub>
@@ -129,7 +131,7 @@ API 연동 및 상태 관리
 
 <td align="center" valign="top">
 
-<img src="assets/images/team/최현웅.png" width="110"/>
+<img src="assets/images/team/최현웅.png" height="130"/>
 
 **최현웅**  
 <sub>AI</sub>
@@ -144,8 +146,9 @@ GPT-4o-mini 기반 주제 추천·번역·퀴즈 생성
 </tr>
 </table>
 
+<br>
 
-## 주요 기능
+## ✨ 주요 기능
 
 <table width="100%">
   <tr>
@@ -229,5 +232,176 @@ GPT-4o-mini 기반 주제 추천·번역·퀴즈 생성
     </td>
   </tr>
 </table>
+
+<br/><br/>
+
+## 🛠 기술 스택
+
+### Frontend
+<p align="center">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenVidu-000000?style=for-the-badge&logo=webrtc&logoColor=white" />
+  <img src="https://img.shields.io/badge/STOMP.js-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/SockJS-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white" />
+</p>
+
+<details>
+<summary>세부 스펙 보기</summary>
+
+- Language: JavaScript  
+- Runtime: Node.js 24.12.0  
+- Framework: React 19.2.0, React Router 7.12.0  
+- Libraries: OpenVidu Browser 2.25.0, STOMP.js 7.2.1, SockJS 1.6.1, Axios 1.13.4  
+- Build: Vite 7.2.4  
+- IDE: VS Code  
+
+</details>
+
+---
+
+### Backend
+<p align="center">
+  <img src="https://img.shields.io/badge/Java%2017-007396?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white" />
+  <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL%208-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
+  <img src="https://img.shields.io/badge/WebSocket(STOMP)-000000?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" />
+</p>
+
+<details>
+<summary>세부 스펙 보기</summary>
+
+- Language: Java 17 (Eclipse Temurin)  
+- Framework: Spring Boot 3.5.9  
+- Libraries: Spring Security, JPA, Redis, OAuth2 Client, WebSocket, OpenVidu Java Client 2.25.0, JJWT 0.12.3, Springdoc OpenAPI 2.3.0  
+- Database: MySQL 8.0.43, Redis (Alpine)  
+- Build: Gradle 8.14.3  
+- IDE: IntelliJ IDEA (Ultimate)  
+
+</details>
+
+---
+
+### AI Integration
+<p align="center">
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/GPT--4o%20mini-412991?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Azure%20Speech-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+  <img src="https://img.shields.io/badge/Whisper-000000?style=for-the-badge" />
+</p>
+
+<details>
+<summary>세부 스펙 보기</summary>
+
+- LLM: GPT-4o mini  
+- Speech: MS Cognitive Services Speech 1.47.0 (TTS/STT), OpenAI Whisper API  
+- Features: 실시간 발음 평가, 비동기 음성 처리, 문법 교정  
+
+</details>
+
+---
+
+### DevOps
+<p align="center">
+  <img src="https://img.shields.io/badge/AWS%20EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white" />
+  <img src="https://img.shields.io/badge/Ubuntu%2020.04-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker%20Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" />
+  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" />
+  <img src="https://img.shields.io/badge/Mattermost-0058CC?style=for-the-badge&logo=mattermost&logoColor=white" />
+</p>
+
+<details>
+<summary>세부 스펙 보기</summary>
+
+- Instance: AWS EC2 (Ubuntu 20.04 LTS)  
+- Container: Docker Engine, Docker Compose v3.8  
+- CI/CD: Jenkins LTS (DinD)  
+- Web Server: Nginx  
+- Media Server: OpenVidu Server 2.25.0 (Pro / Host Network)  
+- Notification: Mattermost Webhook  
+
+</details>
+
+---
+
+### 🗂️ Collaboration Tools
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white">
+<img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white">
+<img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white">
+<img src="https://img.shields.io/badge/Mattermost-0072C6?style=for-the-badge&logo=mattermost&logoColor=white">
+<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
+<img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white">
+
+<br>
+<br>
+
+---
+
+## 📄 Project Documents
+
+수다DUCK의 상세 기획 및 설계 문서는 아래에서 확인하실 수 있습니다.
+
+<br/>
+
+<table width="100%">
+  <tr>
+    <td width="30%" align="center"><b>포팅 매뉴얼</b></td>
+    <td width="70%" align="left">
+      <a href="./exec/포팅메뉴얼.md">./exec/포팅메뉴얼.md</a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>요구사항 명세서</b></td>
+    <td align="left">
+      <a href="https://www.notion.so/2e8826715e6280ce8f26cea5c674f82a?pvs=21">Notion 바로가기</a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>API 명세서</b></td>
+    <td align="left">
+      <a href="https://www.notion.so/API-2ea826715e628000bcfadb7d9bd88d41?pvs=21">Notion 바로가기</a>
+    </td>
+  </tr>
+</table>
+
+<br/><br/>
+
+---
+
+## 🗃 Data Modeling
+
+<p align="center">
+  <img src="assets/images/erd.png" width="95%"/>
+</p>
+
+<p align="center">
+  <sub>Database ERD – 관계형 데이터 모델링 구조</sub>
+</p>
+
+<br/><br/>
+
+---
+
+## 🏗 System Architecture
+
+<p align="center">
+  <img src="assets/images/architecture.png" width="95%"/>
+</p>
+
+<p align="center">
+  <sub>OpenVidu 기반 실시간 음성 처리 및 AI 파이프라인 아키텍처</sub>
+</p>
 
 <br/><br/>
