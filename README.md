@@ -422,3 +422,16 @@ GPT-4o-mini 기반 주제 추천·번역·퀴즈 생성
 </p>
 
 <br/><br/>
+
+---
+
+## 🎬 Demo Video
+
+<p align="center">
+  <a href="https://drive.google.com/file/d/1LhXUQjYhWRiO9RD3UE5-PkJPe_wnNMQA/view?usp=sharing">
+    <img src="https://img.shields.io/badge/UCC%20Video-보기-FF6B6B?style=for-the-badge"/>
+  </a>
+  <a href="https://drive.google.com/file/d/1fwX5hMVc6YDnm0SuKtSplk6A4MAJEqWJ/view?usp=sharing">
+    <img src="https://img.shields.io/badge/Demo%20Video-보기-4A90E2?style=for-the-badge"/>
+  </a>
+</p>
